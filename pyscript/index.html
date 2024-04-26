@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Followers Check</title>
+    <body style="background-color:#F9CCFE;">
+    <h2>Followers Check</h2>
+    <h4>This is a site to check who isn't following you back in a non-invasive way!</h4>
+        <p>For more details about this project or more about me, go to my <a href="https://www.angeluxx.ca/personal_proj" target="_blank">personal site!</a> </p>
+        <h4>‧˚₊•┈┈┈┈୨୧┈┈┈┈•‧₊˚⊹</h4>
+    <p>To start:</p>
+    <p>1. Wait for the terminal below to appear.</p>
+    <p>2. Download a JSON file from Instagram of your followers and following. You can find instructions <a href="https://help.instagram.com/181231772500920/?helpref=uf_share" target="_blank">here</a>.</p>
+    <p>3. Once the zip from Instagram is downloaded, unzip it and upload <b>followers_1.json</b> and <b>following.json</b> below.</p>
+    <!-- Recommended meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.4.2/core.css">
+
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2024.4.2/core.js"></script>
+
+</head>
+<body>
+    <p>The list of people not following you back will be printed below ☺</p>
+    <label for="Upload a File"></label>
+    <input type="file" id="file-upload" multiple>
+    <br></br>
+    <script type="py" src="./main.py" config="./pyscript.toml" terminal></script>
+
+    <h4>Did you like this project?</h4>
+    <p>Consider buying me a coffee to help with my graduate studies! ♡</p>
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="angeluxx.exe" data-color="#b18cfe" data-emoji="💻"  data-font="Bree" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>
+</body>
+
+</html>
